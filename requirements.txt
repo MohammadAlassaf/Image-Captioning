@@ -1,0 +1,7 @@
+flask
+transformers
+torch
+pillow
+gTTS
+googletrans==4.0.0rc1
+pyngrok

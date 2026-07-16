@@ -1,0 +1,31 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Local model cache/configs
+blip2-flan-t5-xl/
+
+# Python cache & compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables & secrets
+.env
+
+# User data & generated files (ignore files inside but keep the directories)
+static/uploads/*
+static/audio/*
+!static/uploads/.gitkeep
+!static/audio/.gitkeep
+
+# IDEs and editors configurations
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
